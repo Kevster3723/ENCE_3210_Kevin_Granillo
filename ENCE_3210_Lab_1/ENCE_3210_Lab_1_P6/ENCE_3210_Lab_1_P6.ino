@@ -59,10 +59,11 @@ void loop() {
     
   }
 
+delay(50); // Delay is used to digitally debounce the button, otherwise patternState will toggle multiple times between 0 and 1
 }
 
 void isr_button(){ // Interrupt for when button is pressed
-  delay(1000); // Delay is used to digitally debounce the button, otherwise patternState will toggle multiple times between 0 and 1
+  
   if(patternState == 0){ // If the LEDs are in sequence, turn them off
     patternState = 1;
   } else if(patternState == 1){ // If LEDs are off, turn pattern sequence on
