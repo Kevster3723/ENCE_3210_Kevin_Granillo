@@ -59,7 +59,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|164710000|47870000|a1531b39-8dae-4637-9a8d-49791182f594|d9865338-d0b8-43dc-a482-232c73779af2",
+        "silk_edge_clearance|164830000|47990000|a1531b39-8dae-4637-9a8d-49791182f594|499c4f11-07c7-42dc-9233-f46900fc9b26"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -184,9 +187,8 @@
       ],
       "track_widths": [
         0.0,
-        0.2,
-        0.4,
-        0.6
+        0.381,
+        0.508
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
