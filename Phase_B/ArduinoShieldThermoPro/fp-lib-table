@@ -1,3 +1,5 @@
 (fp_lib_table
+  (version 7)
   (lib (name "Arduino_MountingHole")(type "KiCad")(uri "${KICAD7_TEMPLATE_DIR}/Arduino_Mega/Arduino_MountingHole.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "/Users/kevster3723/Desktop/WeatherBalloon/WeatherBalloon/Library.pretty")(options "")(descr ""))
 )
